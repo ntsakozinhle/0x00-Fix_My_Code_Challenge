@@ -2,7 +2,7 @@
 """ This moduled describes square class """
 
 
-class square():
+class Square():
     """ A class representing a square """
     
     def __init__(self, width=0, height=0):
@@ -20,7 +20,7 @@ class square():
         """ Area of the square """
         return self.width * self.width
 
-    def permiter(self):
+    def perimeter(self):
         """ Perimeter of the square """
         return 2 * (self.width + self.height)
 
@@ -30,7 +30,7 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print("Area:", s.area())
     print("Perimeter:", s.perimeter())
