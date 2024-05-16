@@ -4,7 +4,7 @@
 
 class Square():
     """ A class representing a square """
-    
+
     def __init__(self, width=0, height=0):
         """
         Initializes the square with given width and height.
@@ -13,20 +13,21 @@ class Square():
             width (int): The width of the square.
             height (int): the height of the square.
         """
-        self.width = width
-        self.height = height
+        self.w = width
+        self.h = height
 
     def area(self):
         """ Area of the square """
-        return self.width * self.width
+        return self.w * self.w
 
     def perimeter(self):
         """ Perimeter of the square """
-        return 2 * (self.width + self.height)
+        return 2 * (self.w + self.h)
 
     def __str__(self):
         """ Returns a string representation of the Square """
-        return "Square with width {} and height {}".format(self.width, self.height)
+        return "Square with width {} and height {}".format(self.w, self.h)
+
 
 if __name__ == "__main__":
 
