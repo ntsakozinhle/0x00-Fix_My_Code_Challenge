@@ -32,5 +32,5 @@ if __name__ == "__main__":
 
     s = square(width=12, height=9)
     print(s)
-    print("Area:"s.area())
-    print("Perimeter:"s.perimeter())
+    print("Area:", s.area())
+    print("Perimeter:", s.perimeter())
